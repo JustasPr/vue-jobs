@@ -1,10 +1,8 @@
 <script setup>
 import Navbar from '@/components/Navbar.vue';
-import Hero from '@/components/Hero.vue';
-import Homecards from '@/components/Homecards.vue';
+import {RouterView} from 'vue-router';
 </script>
 <template>
   <Navbar />
-  <Hero />
-  <Homecards />
+  <RouterView />
 </template>
