@@ -1,5 +1,5 @@
 import './assets/main.css';
-import 'primeicons/primeicons.css';
+// import 'primeicons/primeicons.css';
 import router from './router/index.js';
 
 import { createApp } from 'vue';
